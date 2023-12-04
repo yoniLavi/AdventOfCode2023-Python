@@ -39,5 +39,4 @@ def part2(text):
     return sum(Game(game).power() for game in text.splitlines())
 
 
-print(part1(MY_INPUT))
-print(part2(MY_INPUT))
+print(f"{part1(MY_INPUT)=}, {part2(MY_INPUT)=}")
